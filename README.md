@@ -1,5 +1,5 @@
 # Thermal-Headroom-
-[user@localhost ~]$ sudo nvme smart-log /dev/nvme0n1 
+```[user@localhost ~]$ sudo nvme smart-log /dev/nvme0n1 
 Smart Log for NVME device:nvme0n1 namespace-id:ffffffff
 critical_warning			: 0
 temperature				: 84 °F (302 K)
@@ -127,4 +127,4 @@ ps      3 : mp:0.0490W non-operational enlat:2000 exlat:2000 rrt:3 rrl:3
 ps      4 : mp:0.0018W non-operational enlat:25000 exlat:25000 rrt:4 rrl:4
             rwt:4 rwl:4 idle_power:- active_power:-
             active_power_workload:-
-[user@localhost ~]$ 
+[user@localhost ~]$ ```
